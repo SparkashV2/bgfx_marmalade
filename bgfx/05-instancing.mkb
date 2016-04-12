@@ -1,0 +1,12 @@
+files
+{
+	(examples/05-instancing)
+	instancing.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

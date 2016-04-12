@@ -1,0 +1,11 @@
+files
+{
+	"*.c"
+	"*.h"
+}
+
+includepaths
+{
+	.
+	../
+}

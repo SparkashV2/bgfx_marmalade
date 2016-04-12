@@ -1,0 +1,42 @@
+files
+{
+	(examples/00-helloworld)
+	helloworld.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}
+
+# Deployments
+deployments
+{
+	caption="bgfx_demo"
+	name="bgfx_demo"
+	version-major=1
+	version-minor=0
+	version-revision=0
+
+	#win32-icon='data/deployment/icons/android/Battuta.ico'
+
+	# Default options for android
+	android-icon='data/deployment/icons/android/Battuta_android_48x48.png'
+	android-icon-xhdpi='data/deployment/icons/android/Battuta_android_96x96.png'
+	android-icon-xxhdpi='data/deployment/icons/android/Battuta_android_144x144.png'
+	android-icon-xxxhdpi='data/deployment/icons/android/Battuta_android_192x192.png'
+	android-icon-gallery='data/deployment/icons/android/Battuta_android_170x170.png'
+	android-icon-hdpi='data/deployment/icons/android/Battuta_android_72x72.png'
+	android-icon-mdpi='data/deployment/icons/android/Battuta_android_48x48.png'
+	android-icon-ldpi='data/deployment/icons/android/Battuta_android_36x36.png'
+
+	iphone-appid="com.hasbro.TF360Enterprise"
+	iphone-bundle-url-name='com.hasbro.TF360Enterprise'
+	iphone-distribution-cert="data/deployment/distribution_identity.cer"
+	iphone-distribution-key="data/deployment/distribution_identity.key"
+	iphone-icon-dir='data/deployment/icons/ios'
+	iphone-provisioning-profile="data/deployment/TF360_ENTERPRISE.mobileprovision"	
+	iphone-sign-for-distribution=1
+}

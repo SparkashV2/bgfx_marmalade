@@ -1,0 +1,12 @@
+files
+{
+	(examples/03-raymarch)
+	raymarch.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

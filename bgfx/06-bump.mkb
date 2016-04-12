@@ -1,0 +1,12 @@
+files
+{
+	(examples/06-bump)
+	bump.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

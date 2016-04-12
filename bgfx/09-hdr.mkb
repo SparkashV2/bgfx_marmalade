@@ -1,0 +1,12 @@
+files
+{
+	(examples/09-hdr)
+	hdr.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

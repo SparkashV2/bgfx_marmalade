@@ -1,0 +1,12 @@
+files
+{
+	(examples/01-cubes)
+	cubes.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

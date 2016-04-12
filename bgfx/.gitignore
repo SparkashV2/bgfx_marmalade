@@ -1,0 +1,10 @@
+.build
+.debug
+.DS_Store
+.git
+.svn
+tags
+.gdb_history
+build_*
+data
+dataram

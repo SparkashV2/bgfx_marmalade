@@ -1,0 +1,12 @@
+files
+{
+	(examples/04-mesh)
+	mesh.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

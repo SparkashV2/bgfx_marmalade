@@ -1,0 +1,12 @@
+files
+{
+	(examples/02-metaballs)
+	metaballs.cpp
+
+}
+
+subprojects
+{
+	bgfx
+	examples/common
+}

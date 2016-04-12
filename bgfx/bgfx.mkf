@@ -1,0 +1,29 @@
+defines
+{
+	__STDC_CONSTANT_MACROS
+	STB_IMAGE_IMPLEMENTATION
+}
+
+files
+{
+	[source]
+	(src)
+	"*.cpp"
+	"*.h"
+
+	[include]
+	(include\bgfx)
+	"*.h"
+}
+
+includepaths
+{
+	source
+	include
+}
+
+subprojects
+{
+	iwgl
+	bx
+}
